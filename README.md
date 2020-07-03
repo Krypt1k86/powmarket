@@ -1,10 +1,8 @@
-# PoW Market
+# Sha Market
 
-<img src="./public/static/images/logo.png" alt="logo" style="zoom: 67%;" />
+> Another market for magic numbers
 
-> A market for magic numbers
-
-https://pow.market/
+https://sha.market/
 
 
 
@@ -33,7 +31,7 @@ Pull requests welcome!
 
 ## API
 
-The PoW Market API has 3 `HTTP` `GET` endpoints available that all return objects like this:
+The Sha Market API has 3 `HTTP` `GET` endpoints available that all return objects like this:
 
 ```javascript
 {
@@ -59,19 +57,19 @@ Objects will have `mined` set to `true` or `false`.
 
 
 
-### `https://pow.market/api`
+### `https://sha.market/api`
 
 Return all magic numbers in the order they were created. Currently no paging is offered.
 
 
 
-### `https://pow.market/api/unmined`
+### `https://shaa.market/api/unmined`
 
 Return all unmined magic numbers.
 
 
 
-### `https://pow.market/api/mined`
+### `https://shaa.market/api/mined`
 
 Return the last 500 mined magic numbers. Currently no paging is offered. Mined objects will have additional properties like `mined_address`, `mined_number` and `mined_txid`.
 
@@ -107,9 +105,9 @@ PoW Market is compatible with [21e8miner](https://github.com/deanmlittle/21e8min
 
 ## About
 
-PoW Market is a distributed proof-of-work market built on Bitcoin. It's built using Hummingbird (https://github.com/synfonaut/hummingbird), a real-time application framework for Bitcoin.
+Sha Market is a fork of @synfonaut pow.market distributed proof-of-work market built on Bitcoin. It's built using Hummingbird (https://github.com/synfonaut/hummingbird), a real-time application framework for Bitcoin.
 
-@synfonaut
+@c0inalchemist
 
 Block visualization inspired by https://bitcoinblocks.live/
 
