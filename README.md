@@ -1,21 +1,21 @@
-# Sha Market
+# Sha Center
 
 > Another market for magic numbers
 
-https://sha.market/
+https://sha.center/
 
 
 
 ## Getting Started
 
-To get the PoW market running, use the following commands
+To get the Sha market running, use the following commands
 
 **Dependencies**
 - MongoDB
 - Bitcoin node
 
 ```bash
-git clone https://github.com/synfonaut/pow.market.git
+git clone https://github.com/Krypt1k86/shamarket.git
 cd pow.market
 npm i
 RPC_HOST=XXX RPC_USER=XXX RPC_PASS=XXX PEER_HOST=XXX npm start
@@ -31,7 +31,7 @@ Pull requests welcome!
 
 ## API
 
-The Sha Market API has 3 `HTTP` `GET` endpoints available that all return objects like this:
+The Sha Center API has 3 `HTTP` `GET` endpoints available that all return objects like this:
 
 ```javascript
 {
@@ -57,19 +57,19 @@ Objects will have `mined` set to `true` or `false`.
 
 
 
-### `https://sha.market/api`
+### `https://sha.center/api`
 
 Return all magic numbers in the order they were created. Currently no paging is offered.
 
 
 
-### `https://shaa.market/api/unmined`
+### `https://sha.center/api/unmined`
 
 Return all unmined magic numbers.
 
 
 
-### `https://shaa.market/api/mined`
+### `https://sha.center/api/mined`
 
 Return the last 500 mined magic numbers. Currently no paging is offered. Mined objects will have additional properties like `mined_address`, `mined_number` and `mined_txid`.
 
@@ -105,7 +105,7 @@ PoW Market is compatible with [21e8miner](https://github.com/deanmlittle/21e8min
 
 ## About
 
-Sha Market is a fork of @synfonaut pow.market distributed proof-of-work market built on Bitcoin. It's built using Hummingbird (https://github.com/synfonaut/hummingbird), a real-time application framework for Bitcoin.
+Sha Center is a fork of @synfonaut pow.market distributed proof-of-work market built on Bitcoin. It's built using Hummingbird (https://github.com/synfonaut/hummingbird), a real-time application framework for Bitcoin.
 
 @c0inalchemist
 
