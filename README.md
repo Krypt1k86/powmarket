@@ -1,6 +1,6 @@
 # Sha Center
 
-> Another market for magic numbers
+> Another marketplace for magic numbers
 
 https://sha.center/
 
@@ -8,7 +8,7 @@ https://sha.center/
 
 ## Getting Started
 
-To get the Sha market running, use the following commands
+To get Sha Center running, use the following commands
 
 **Dependencies**
 - MongoDB
@@ -57,19 +57,19 @@ Objects will have `mined` set to `true` or `false`.
 
 
 
-### `https://sha.center/api`
+### `http://sha.center/api`
 
 Return all magic numbers in the order they were created. Currently no paging is offered.
 
 
 
-### `https://sha.center/api/unmined`
+### `http://sha.center/api/unmined`
 
 Return all unmined magic numbers.
 
 
 
-### `https://sha.center/api/mined`
+### `http://sha.center/api/mined`
 
 Return the last 500 mined magic numbers. Currently no paging is offered. Mined objects will have additional properties like `mined_address`, `mined_number` and `mined_txid`.
 
@@ -99,7 +99,7 @@ Return the last 500 mined magic numbers. Currently no paging is offered. Mined o
 
 ## 21e8miner
 
-PoW Market is compatible with [21e8miner](https://github.com/deanmlittle/21e8miner)
+Sha Center is compatible with [21e8miner](https://github.com/deanmlittle/21e8miner), [jsMiner](https://github.com/ivmidable/jsminer), & [Master Race Miner V2](https://gist.github.com/relayking/2a83789c2df6cd7d1b80b9a88e89cf58)
 
 
 
@@ -107,7 +107,6 @@ PoW Market is compatible with [21e8miner](https://github.com/deanmlittle/21e8min
 
 Sha Center is a fork of @synfonaut pow.market distributed proof-of-work market built on Bitcoin. It's built using Hummingbird (https://github.com/synfonaut/hummingbird), a real-time application framework for Bitcoin.
 
-@c0inalchemist
 
 Block visualization inspired by https://bitcoinblocks.live/
 
@@ -151,16 +150,18 @@ Add a "0000" mode to Add Magic Number to structure a puzzle using the Boost PoW 
 
 ### Hashrate chart ($21.80)
 
-Add a chart to the Statistics section that visualises the historical hashrate for all of PoW.market
+Add a chart to the Statistics section that visualises the historical hashrate for all of [Sha.Center](http://sha.center)
 
 
 ### Design and UX ($21.80)
 
 Make improvements to the design / UX.
 
+
 ### Translate to Chinese ($21.80)
 
 Provide Chinese translations for all text on site.
+
 
 ## TODO
 - websocket / sse
