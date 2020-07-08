@@ -10,7 +10,7 @@ import cors from "cors"
 import * as database from "./db"
 import * as handlers from "./handlers"
 
-export async function start(port=8000) {
+export async function start(port=80) {
 
     database.db = await database.connect();
     const db = database.db;
