@@ -16,7 +16,7 @@ To get Sha Center running, use the following commands
 
 ```bash
 git clone https://github.com/Krypt1k86/shamarket.git
-cd pow.market
+cd shamarket
 npm i
 RPC_HOST=XXX RPC_USER=XXX RPC_PASS=XXX PEER_HOST=XXX npm start
 
