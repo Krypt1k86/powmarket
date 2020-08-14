@@ -1,6 +1,6 @@
 # Sha Center
 
-> Another marketplace for magic numbers
+> An Index for Searching Magic Numbers & Hash Puzzles
 
 https://sha.center/
 
