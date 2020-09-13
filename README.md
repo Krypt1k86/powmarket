@@ -15,8 +15,8 @@ To get Sha Center running, use the following commands
 - Bitcoin node
 
 ```bash
-git clone https://github.com/Krypt1k86/shamarket.git
-cd shamarket
+git clone https://github.com/Krypt1k86/shacenter.git
+cd shacenter
 npm i
 RPC_HOST=XXX RPC_USER=XXX RPC_PASS=XXX PEER_HOST=XXX npm start
 
